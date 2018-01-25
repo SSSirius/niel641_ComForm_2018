@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Roboto:300,500|Overpass+Mono:300|Rubik:300,300i,400,400i,500,700');@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+body{
+	overflow-x: hidden;
+}
+
+h1.main-title{
+	font-family: "Rubik";
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #000;
+    letter-spacing: 0.31px;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.main-text p{
+
+    margin-bottom: 8px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.31px;
+    line-height: calc(25 / 16);
+}
+.wk-title{
+	font-family: "Miriam Libre";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    letter-spacing: 0.31px;
+    margin-top: 60px;
+    margin-bottom: 24px;
+    width:100%;
+        margin-bottom: 8px;
+    border-bottom: 0.5px solid #CCC;
+    /*text-transform: uppercase;*/
+}
+.main-text{
+	font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.31px;
+    line-height: calc(20 / 16);
+    padding-right: 30px;
+    /*margin-bottom: 3em;*/
+}
