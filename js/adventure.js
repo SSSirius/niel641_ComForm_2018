@@ -3,7 +3,7 @@ var index=0;
 const storyGrammar = {
     // "origin": ["#[hero:#name#][heroPet:#animal#]story#"],
     "story0": ["<p>#time#, you wake up and find yourself in a #placephrase#.</p>"],
-    "story1": ["<p>You fell #adverb# #feeling#, because you see #phrase#.</p>"],
+    "story1": ["<p>You feel #adverb# #feeling#, because you see #phrase#.</p>"],
     "story2": ["<p>Then you try to  #verb# #object.a# with a #subjecttool#, but you fail.</p>"],
     "story3": ["<p>Finally, with the help of #object#, you #end#.</p> "],
     "feeling": ["happy", "amazed", "free", "wonderful", "clean", "strong", "beautiful", "excited", "great", "bold", "gorgeous", "attractive", "better", "agreeable", "brave", "calm", "delightful", "festive", "gentle", "jolly", "proud", "shy", "optimistic", "cheerful", "angry", "sadistic", "moody", "cold", "pessimistic", "sad", "chilly", "thirsty", "nervous", "tired", "weak", "evil", "terrible", "dreadful", "dirty", "ugly", "dreary", "awful", "stupid", "dumb","aggravated", "miserable", "mad", "grumpy", "tearful", "selfish", "depressed", "sour"],
